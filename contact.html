@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      🌿 KS
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="theme-toggle">🌙</button>
+    <button class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-content">
+      <h1 class="scroll-animate-left">Get In Touch</h1>
+      <p class="hero-description scroll-animate-left">
+        I'd love to hear from you. Let's connect!
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); max-width: 1000px; margin: 0 auto; align-items: start;">
+        
+        <!-- Contact Info -->
+        <div class="scroll-animate-left">
+          <h2 style="margin-bottom: var(--spacing-2xl);">Contact Information</h2>
+          
+          <div style="background: var(--bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--border); margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: start; gap: var(--spacing-md); margin-bottom: var(--spacing-lg);">
+              <div style="font-size: 1.5rem; min-width: 30px;">📧</div>
+              <div>
+                <h4 style="margin-top: 0; margin-bottom: var(--spacing-sm); color: var(--text-primary);">Email</h4>
+                <a href="mailto:kaynospeights@gmail.com" style="color: var(--accent); word-break: break-all;">
+                  kaynospeights@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: start; gap: var(--spacing-md); margin-bottom: var(--spacing-lg);">
+              <div style="font-size: 1.5rem; min-width: 30px;">📱</div>
+              <div>
+                <h4 style="margin-top: 0; margin-bottom: var(--spacing-sm); color: var(--text-primary);">Phone</h4>
+                <a href="tel:(336) 448-8854" style="color: var(--accent);">
+                  (336) 448-8854
+                </a>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: start; gap: var(--spacing-md); margin-bottom: var(--spacing-lg);">
+              <div style="font-size: 1.5rem; min-width: 30px;">📍</div>
+              <div>
+                <h4 style="margin-top: 0; margin-bottom: var(--spacing-sm); color: var(--text-primary);">Location</h4>
+                <p style="margin: 0; color: var(--text-secondary);">
+                  Winston-Salem, North Carolina
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="margin-bottom: var(--spacing-lg);">Connect With Me</h3>
+          
+          <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
+            <a href="https://github.com/KaynoSpeights" target="_blank" class="btn btn-secondary" style="display: flex; align-items: center; justify-content: center; gap: var(--spacing-md);">
+              <span style="font-size: 1.5rem;">🐙</span> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/kaynospeights/" target="_blank" class="btn btn-secondary" style="display: flex; align-items: center; justify-content: center; gap: var(--spacing-md);">
+              <span style="font-size: 1.5rem;">💼</span> LinkedIn
+            </a>
+            <a href="https://twitter.com" target="_blank" class="btn btn-secondary" style="display: flex; align-items: center; justify-content: center; gap: var(--spacing-md);">
+              <span style="font-size: 1.5rem;">𝕏</span> Twitter
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="scroll-animate-right">
+          <h2 style="margin-bottom: var(--spacing-2xl);">Send Me a Message</h2>
+          
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="subject" required placeholder="What is this about?">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; font-weight: 600;">
+              Send Message
+            </button>
+
+            <p style="text-align: center; color: var(--text-secondary); font-size: var(--font-size-sm); margin-top: var(--spacing-lg); margin-bottom: 0;">
+              I'll get back to you as soon as possible!
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Response Times -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">Response Times</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); max-width: 1000px; margin: 0 auto;">
+        
+        <div class="card scroll-animate-card">
+          <div style="font-size: 2.5rem; margin-bottom: var(--spacing-md);">⚡</div>
+          <h4>Email</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            I typically respond to emails within <strong>24-48 hours</strong> during weekdays.
+          </p>
+        </div>
+
+        <div class="card scroll-animate-card">
+          <div style="font-size: 2.5rem; margin-bottom: var(--spacing-md);">📱</div>
+          <h4>Phone</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            For urgent matters, feel free to call between <strong>9 AM - 5 PM EST</strong>.
+          </p>
+        </div>
+
+        <div class="card scroll-animate-card">
+          <div style="font-size: 2.5rem; margin-bottom: var(--spacing-md);">🌐</div>
+          <h4>Social Media</h4>
+          <p style="margin: 0; color: var(--text-secondary);">
+            I'm active on social media and usually respond within <strong>48 hours</strong>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">Common Questions</h2>
+      
+      <div style="max-width: 800px; margin: 0 auto;">
+        
+        <details class="card scroll-animate-card" style="cursor: pointer;">
+          <summary style="font-weight: 600; color: var(--accent); padding: var(--spacing-md); user-select: none;">
+            Are you available for internships or freelance work?
+          </summary>
+          <p style="padding: var(--spacing-md); margin: 0; color: var(--text-secondary);">
+            I'm currently pursuing an internship at Nationwide this summer. I'm open to discussing other opportunities 
+            and may be available for select freelance projects depending on timeline and scope.
+          </p>
+        </details>
+
+        <details class="card scroll-animate-card" style="cursor: pointer; margin-top: var(--spacing-md);">
+          <summary style="font-weight: 600; color: var(--accent); padding: var(--spacing-md); user-select: none;">
+            What's your rate for freelance projects?
+          </summary>
+          <p style="padding: var(--spacing-md); margin: 0; color: var(--text-secondary);">
+            Rates vary based on project complexity, timeline, and scope. I'd be happy to discuss 
+            your specific needs and provide a personalized quote.
+          </p>
+        </details>
+
+        <details class="card scroll-animate-card" style="cursor: pointer; margin-top: var(--spacing-md);">
+          <summary style="font-weight: 600; color: var(--accent); padding: var(--spacing-md); user-select: none;">
+            Do you work with startups?
+          </summary>
+          <p style="padding: var(--spacing-md); margin: 0; color: var(--text-secondary);">
+            I'm interested in working with startups that are solving interesting problems. Let's talk about your idea!
+          </p>
+        </details>
+
+        <details class="card scroll-animate-card" style="cursor: pointer; margin-top: var(--spacing-md);">
+          <summary style="font-weight: 600; color: var(--accent); padding: var(--spacing-md); user-select: none;">
+            Can you help with specific technologies?
+          </summary>
+          <p style="padding: var(--spacing-md); margin: 0; color: var(--text-secondary);">
+            Check out my Skills page to see what I'm experienced with. I'm also always learning new technologies!
+          </p>
+        </details>
+
+        <details class="card scroll-animate-card" style="cursor: pointer; margin-top: var(--spacing-md);">
+          <summary style="font-weight: 600; color: var(--accent); padding: var(--spacing-md); user-select: none;">
+            How should I format my request?
+          </summary>
+          <p style="padding: var(--spacing-md); margin: 0; color: var(--text-secondary);">
+            Use the contact form above with clear details about your project, timeline, and budget. 
+            The more specific you are, the better I can help!
+          </p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">What Others Say</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-lg); max-width: 1000px; margin: 0 auto;">
+        
+        <div class="card scroll-animate-card">
+          <p style="margin-bottom: var(--spacing-lg); color: var(--text-secondary); font-style: italic;">
+            "Kayno is a talented developer with strong problem-solving skills and great communication abilities."
+          </p>
+          <p style="margin: 0; font-weight: 600; color: var(--text-primary);">
+            Professor Name
+          </p>
+          <p style="margin: 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+            Computer Science Faculty
+          </p>
+        </div>
+
+        <div class="card scroll-animate-card">
+          <p style="margin-bottom: var(--spacing-lg); color: var(--text-secondary); font-style: italic;">
+            "A dedicated student who consistently delivers quality work and takes on challenges with enthusiasm."
+          </p>
+          <p style="margin: 0; font-weight: 600; color: var(--text-primary);">
+            Project Manager
+          </p>
+          <p style="margin: 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+            Previous Team Lead
+          </p>
+        </div>
+
+        <div class="card scroll-animate-card">
+          <p style="margin-bottom: var(--spacing-lg); color: var(--text-secondary); font-style: italic;">
+            "Great to work with. Reliable, responsible, and always willing to learn and improve."
+          </p>
+          <p style="margin: 0; font-weight: 600; color: var(--text-primary);">
+            Collaborator Name
+          </p>
+          <p style="margin: 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+            Group Project Partner
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    text-align: center;
+  ">
+    <div class="container">
+      <p style="margin-bottom: var(--spacing-md);">
+        <a href="https://github.com/KaynoSpeights" style="margin: 0 var(--spacing-md);">GitHub</a>
+        <a href="https://www.linkedin.com/in/kaynospeights/" style="margin: 0 var(--spacing-md);">LinkedIn</a>
+        <a href="mailto:your.email@example.com" style="margin: 0 var(--spacing-md);">Email</a>
+      </p>
+      <p style="color: var(--text-secondary); margin: 0;">
+        © 2024 Kayno Speights. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

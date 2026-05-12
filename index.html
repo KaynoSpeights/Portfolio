@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Computer Science Student</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      🌿 KS
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle">🌙</button>
+    <button class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="fade-in-on-scroll">Hi, I'm Kayno Speights</h1>
+      <p class="hero-subtitle fade-in-on-scroll">Computer Science Student</p>
+      <p class="hero-description fade-in-on-scroll">
+        Passionate developer creating elegant solutions to complex problems. 
+        Building projects that matter.
+      </p>
+      <div class="cta-buttons fade-in-on-scroll">
+        <a href="projects.html" class="btn btn-secondary">View My Work</a>
+        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Preview -->
+  <section class="section" id="projects-preview">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">Featured Projects</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-lg); margin-bottom: var(--spacing-3xl);">
+        <!-- Project 1 -->
+        <div class="project-card scroll-animate-card">
+          <div class="project-image-container">
+            <div class="project-image-placeholder">
+              <div style="font-size: 3rem; margin-bottom: 1rem;">💻</div>
+              <p style="margin: 0;">Add your project image here</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-tech-tag">HTML/CSS/JavaScript</span>
+            <h3>Omega Outreach Center Website</h3>
+            <p>A responsive, modern website built for Omega Holiness Church of Atlanta to enhance community outreach and digital engagement. Developed using HTML, CSS, and JavaScript, the site serves as a central hub for sermons, announcements, and church information. Deployed via GitHub Pages for reliable and accessible hosting.</p>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub Repository">
+                <span style="font-size: 1.2em;">🔗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card scroll-animate-card">
+          <div class="project-image-container">
+            <div class="project-image-placeholder">
+              <div style="font-size: 3rem; margin-bottom: 1rem;">🐍</div>
+              <p style="margin: 0;">Add your project image here</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-tech-tag">Python</span>
+            <h3>Electronic Gradebook</h3>
+            <p>A comprehensive grade management system designed to streamline the process of tracking and reporting student performance. Built with Python and Tkinter, the application provides an intuitive interface for educators to input grades, generate reports, and analyze student progress.</p>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub Repository">
+                <span style="font-size: 1.2em;">🔗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card scroll-animate-card">
+          <div class="project-image-container">
+            <div class="project-image-placeholder">
+              <div style="font-size: 3rem; margin-bottom: 1rem;">⚙️</div>
+              <p style="margin: 0;">Add your project image here</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-tech-tag">MySQL</span>
+            <h3>Athletics Database</h3>
+            <p>Created a relational database for managing athletics information, including building locations, payroll records, events, and work dates.</p>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub Repository">
+                <span style="font-size: 1.2em;">🔗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="projects.html" class="btn btn-primary scroll-animate-card">See All Projects →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="section" style="background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">About Me</h2>
+      
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-2xl); align-items: center; max-width: 900px; margin: 0 auto;">
+        <div class="scroll-animate-left">
+          <h3>Computer Science Major</h3>
+          <p>I'm a passionate developer with a strong foundation in computer science principles. I love solving problems through elegant code and creating applications that make a difference.</p>
+          <p>This summer, I'm excited to be interning at <strong>Nationwide</strong>, where I'll be contributing to real-world projects and growing as a developer.</p>
+          <p>When I'm not coding, you can find me exploring new technologies, contributing to open source, or working on personal projects.</p>
+        </div>
+        <div class="scroll-animate-card" style="text-align: center;">
+          <div style="
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            box-shadow: 0 20px 40px var(--shadow-lg);
+          ">
+            👨‍💻
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <section class="section" data-counter-container>
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-2xl); text-align: center;">
+        <div class="scroll-animate-card">
+          <div style="font-size: 2.5rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-md);">
+            <span data-counter="3">0</span>+
+          </div>
+          <p style="margin: 0; font-weight: 600;">Major Projects</p>
+        </div>
+        <div class="scroll-animate-card">
+          <div style="font-size: 2.5rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-md);">
+            📚
+          </div>
+          <p style="margin: 0; font-weight: 600;">Currently Learning</p>
+        </div>
+        <div class="scroll-animate-card">
+          <div style="font-size: 2.5rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-md);">
+            🌐
+          </div>
+          <p style="margin: 0; font-weight: 600;">Full Stack Dev</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section" style="background: linear-gradient(135deg, var(--accent), var(--accent-light)); color: white; text-align: center;">
+    <div class="container">
+      <h2 class="scroll-animate-card" style="color: white; margin-bottom: var(--spacing-lg);">Ready to Work Together?</h2>
+      <p style="color: rgba(255, 255, 255, 0.95); font-size: var(--font-size-lg); margin-bottom: var(--spacing-lg);">
+        Let's create something amazing. Get in touch with me!
+      </p>
+      <a href="contact.html" class="btn" style="background: white; color: var(--accent); font-weight: 700;">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    text-align: center;
+  ">
+    <div class="container">
+      <p style="margin-bottom: var(--spacing-md);">
+        <a href="https://github.com/KaynoSpeights" style="margin: 0 var(--spacing-md);">GitHub</a>
+        <a href="https://www.linkedin.com/in/kaynospeights/" style="margin: 0 var(--spacing-md);">LinkedIn</a>
+        <a href="mailto:your.email@example.com" style="margin: 0 var(--spacing-md);">Email</a>
+      </p>
+      <p style="color: var(--text-secondary); margin: 0;">
+        © 2024 Kayno Speights. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

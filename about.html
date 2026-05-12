@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      🌿 KS
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle">🌙</button>
+    <button class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-content">
+      <h1 class="fade-in-on-scroll">About Me</h1>
+      <p class="hero-description fade-in-on-scroll">
+        Get to know the person behind the code
+      </p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="section" id="about">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: start; max-width: 1000px; margin: 0 auto;">
+        
+        <!-- Left Column - Profile -->
+        <div class="scroll-animate-left">
+          <div style="
+            width: 100%;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            border-radius: var(--radius-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 6rem;
+            box-shadow: 0 20px 50px var(--shadow-lg);
+            margin-bottom: var(--spacing-lg);
+          ">
+            👨‍💻
+          </div>
+          <div style="background: var(--bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--border);">
+            <h4 style="color: var(--accent); margin-bottom: var(--spacing-md);">Quick Facts</h4>
+            <ul style="list-style: none; color: var(--text-secondary);">
+              <li style="margin-bottom: var(--spacing-md);">📍 <strong>Location:</strong> Winston Salem, NC</li>
+              <li style="margin-bottom: var(--spacing-md);">🎓 <strong>Major:</strong> Computer Science</li>
+              <li style="margin-bottom: var(--spacing-md);">💼 <strong>Current:</strong> Student + Intern</li>
+              <li style="margin-bottom: var(--spacing-md);">🌱 <strong>At Nationwide:</strong> Summer 2026</li>
+              <li style="margin-bottom: var(--spacing-md);">💡 <strong>Passion:</strong> Problem Solving</li>
+              <li>🚀 <strong>Goal:</strong> Build impactful software</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column - Bio -->
+        <div class="scroll-animate-right">
+          <h2 style="margin-bottom: var(--spacing-lg);">My Journey</h2>
+          
+          <p style="margin-bottom: var(--spacing-lg);">
+            I'm Kayno Speights, a passionate Computer Science student with a strong passion for solving complex problems through elegant code. 
+            My journey in tech started with curiosity—wondering how things work and the drive to build solutions that matter.
+          </p>
+
+          <p style="margin-bottom: var(--spacing-lg);">
+            Over the years, I've developed skills in multiple programming languages and frameworks. I'm particularly interested in 
+            <strong>full-stack development</strong> and creating user experiences that are both beautiful and functional. 
+            Every project I undertake is an opportunity to learn something new and push my boundaries.
+          </p>
+
+          <h3 style="margin-top: var(--spacing-2xl); margin-bottom: var(--spacing-lg);">Why I Code</h3>
+          
+          <p style="margin-bottom: var(--spacing-md);">
+            For me, coding isn't just about writing lines of code—it's about creating solutions that solve real problems. 
+            I believe in the power of technology to make positive impacts, and I'm committed to using my skills responsibly and creatively.
+          </p>
+
+          <h3 style="margin-top: var(--spacing-2xl); margin-bottom: var(--spacing-lg);">Nationwide Internship</h3>
+          
+          <p style="margin-bottom: var(--spacing-md);">
+            This summer, I'm thrilled to be joining <strong>Nationwide</strong> as an intern. This opportunity allows me to:
+          </p>
+          <ul style="margin-left: var(--spacing-lg); margin-bottom: var(--spacing-lg); color: var(--text-secondary);">
+            <li style="margin-bottom: var(--spacing-sm);">Apply my skills to real-world projects in a professional environment</li>
+            <li style="margin-bottom: var(--spacing-sm);">Learn from experienced developers and industry professionals</li>
+            <li style="margin-bottom: var(--spacing-sm);">Work on meaningful problems that impact real users</li>
+            <li style="margin-bottom: var(--spacing-sm);">Grow as a developer and professional</li>
+          </ul>
+
+          <h3 style="margin-top: var(--spacing-2xl); margin-bottom: var(--spacing-lg);">Beyond Code</h3>
+          
+          <p>
+            When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, playing video games, 
+            and spending time with friends and family. I'm always looking to learn and grow, both as a developer and as a person.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Highlight -->
+  <section class="section fade-in-on-scroll" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title fade-in-on-scroll">Core Competencies</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); max-width: 900px; margin: 0 auto;">
+        
+        <div class="fade-in-on-scroll" style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: all var(--transition-base);" 
+             onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px var(--shadow-lg)'" 
+             onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+          <div style="font-size: 2.5rem; margin-bottom: var(--spacing-md);">💻</div>
+          <h4>Programming</h4>
+          <p style="margin: 0; color: var(--text-secondary);">Java, Python, JavaScript, C++</p>
+        </div>
+
+        <div class="fade-in-on-scroll" style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: all var(--transition-base);" 
+             onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px var(--shadow-lg)'" 
+             onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+          <div style="font-size: 2.5rem; margin-bottom: var(--spacing-md);">🎨</div>
+          <h4>Web Design</h4>
+          <p style="margin: 0; color: var(--text-secondary);">HTML, CSS, JavaScript, Responsive Design</p>
+        </div>
+
+        <div class="fade-in-on-scroll" style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: all var(--transition-base);" 
+             onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px var(--shadow-lg)'" 
+             onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+          <div style="font-size: 2.5rem; margin-bottom: var(--spacing-md);">🗄️</div>
+          <h4>Databases</h4>
+          <p style="margin: 0; color: var(--text-secondary);">SQL, Data Structures, Algorithms</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section fade-in-on-scroll" style="background: linear-gradient(135deg, var(--accent), var(--accent-light)); color: white; text-align: center;">
+    <div class="container">
+      <h2 style="color: white; margin-bottom: var(--spacing-lg);">Let's Connect!</h2>
+      <p style="color: rgba(255, 255, 255, 0.95); font-size: var(--font-size-lg); margin-bottom: var(--spacing-lg);">
+        Interested in working together or just want to chat? I'd love to hear from you!
+      </p>
+      <a href="contact.html" class="btn" style="background: white; color: var(--accent); font-weight: 700;">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    text-align: center;
+  ">
+    <div class="container">
+      <p style="margin-bottom: var(--spacing-md);">
+        <a href="https://github.com/KaynoSpeights" style="margin: 0 var(--spacing-md);">GitHub</a>
+        <a href="https://www.linkedin.com/in/kaynospeights/" style="margin: 0 var(--spacing-md);">LinkedIn</a>
+        <a href="mailto:your.email@example.com" style="margin: 0 var(--spacing-md);">Email</a>
+      </p>
+      <p style="color: var(--text-secondary); margin: 0;">
+        © 2024 Kayno Speights. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      🌿 KS
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle">🌙</button>
+    <button class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-content">
+      <h1 class="scroll-animate-left">My Projects</h1>
+      <p class="hero-description scroll-animate-left">
+        Showcasing my major projects and technical accomplishments
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">Featured Projects</h2>
+      
+      <div style="display: grid; grid-template-columns: 1fr; gap: var(--spacing-3xl); margin-bottom: var(--spacing-3xl);">
+        
+        <!-- Project 1 -->
+        <div class="scroll-animate-left" style="
+          background: var(--bg-secondary);
+          border-radius: var(--radius-xl);
+          overflow: hidden;
+          border: 1px solid var(--border);
+          transition: all var(--transition-base);
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 0;
+        " onmouseover="this.style.boxShadow='0 20px 50px var(--shadow-lg)'; this.style.transform='translateY(-5px)'" 
+           onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
+          
+          <div style="
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 350px;
+            position: relative;
+            overflow: hidden;
+          ">
+            <div style="
+              font-size: 4rem;
+              text-align: center;
+              z-index: 1;
+              color: white;
+            ">
+              💻
+            </div>
+            <p style="
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              background: rgba(255, 255, 255, 0.2);
+              color: white;
+              padding: var(--spacing-xs) var(--spacing-md);
+              border-radius: var(--radius-md);
+              font-weight: 600;
+              font-size: var(--font-size-sm);
+              margin: 0;
+              backdrop-filter: blur(5px);
+            ">HTML/CSS/JavaScript</p>
+          </div>
+
+          <div style="padding: var(--spacing-2xl); display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="margin-top: 0; margin-bottom: var(--spacing-md); color: var(--text-primary);">Omega Outreach Center Website</h3>
+            <p style="color: var(--text-secondary); margin-bottom: var(--spacing-lg);">
+              A responsive, modern website built for Omega Holiness Church of Atlanta to enhance community outreach and digital engagement. Developed using HTML, CSS, and JavaScript, the site serves as a central hub for sermons, announcements, and church information. Deployed via GitHub Pages for reliable and accessible hosting.
+            </p>
+            
+            <div style="margin-bottom: var(--spacing-lg);">
+              <p style="margin: 0 0 var(--spacing-sm) 0; color: var(--text-primary); font-weight: 600;">Key Features:</p>
+              <ul style="list-style: none; margin: 0; padding: 0; color: var(--text-secondary);">
+                <li style="margin-bottom: var(--spacing-sm);">✓ Responsive design for all devices</li>
+                <li style="margin-bottom: var(--spacing-sm);">✓ Modern UI with intuitive navigation</li>
+                <li>✓ Community hub for sermons and announcements</li>
+              </ul>
+            </div>
+
+            <div style="display: flex; gap: var(--spacing-md);">
+              <a href="#" class="btn btn-primary" style="flex: 1; text-align: center;">GitHub Repository</a>
+              <a href="#" class="btn btn-secondary" style="flex: 1; text-align: center;">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="scroll-animate-left" style="
+          background: var(--bg-secondary);
+          border-radius: var(--radius-xl);
+          overflow: hidden;
+          border: 1px solid var(--border);
+          transition: all var(--transition-base);
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 0;
+        " onmouseover="this.style.boxShadow='0 20px 50px var(--shadow-lg)'; this.style.transform='translateY(-5px)'" 
+           onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
+          
+          <div style="
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 350px;
+            position: relative;
+            overflow: hidden;
+            order: 2;
+          ">
+            <div style="
+              font-size: 4rem;
+              text-align: center;
+              z-index: 1;
+              color: white;
+            ">
+              🐍
+            </div>
+            <p style="
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              background: rgba(255, 255, 255, 0.2);
+              color: white;
+              padding: var(--spacing-xs) var(--spacing-md);
+              border-radius: var(--radius-md);
+              font-weight: 600;
+              font-size: var(--font-size-sm);
+              margin: 0;
+              backdrop-filter: blur(5px);
+            ">Python</p>
+          </div>
+
+          <div style="padding: var(--spacing-2xl); display: flex; flex-direction: column; justify-content: center; order: 1;">
+            <h3 style="margin-top: 0; margin-bottom: var(--spacing-md); color: var(--text-primary);">Electronic Gradebook</h3>
+            <p style="color: var(--text-secondary); margin-bottom: var(--spacing-lg);">
+              A comprehensive grade management system designed to streamline the process of tracking and reporting student performance. Built with Python and Tkinter, the application provides an intuitive interface for educators to input grades, generate reports, and analyze student progress.
+            </p>
+            
+            <div style="margin-bottom: var(--spacing-lg);">
+              <p style="margin: 0 0 var(--spacing-sm) 0; color: var(--text-primary); font-weight: 600;">Key Accomplishments:</p>
+              <ul style="list-style: none; margin: 0; padding: 0; color: var(--text-secondary);">
+                <li style="margin-bottom: var(--spacing-sm);">✓ Intuitive grade input interface</li>
+                <li style="margin-bottom: var(--spacing-sm);">✓ Automated report generation</li>
+                <li>✓ Student progress analysis tools</li>
+              </ul>
+            </div>
+
+            <div style="display: flex; gap: var(--spacing-md);">
+              <a href="https://github.com/KaynoSpeights/Electronic-Gradebook" class="btn btn-primary" style="flex: 1; text-align: center;">GitHub Repository</a>
+              <a href="https://github.com/KaynoSpeights/Electronic-Gradebook" class="btn btn-secondary" style="flex: 1; text-align: center;">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="scroll-animate-left" style="
+          background: var(--bg-secondary);
+          border-radius: var(--radius-xl);
+          overflow: hidden;
+          border: 1px solid var(--border);
+          transition: all var(--transition-base);
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 0;
+        " onmouseover="this.style.boxShadow='0 20px 50px var(--shadow-lg)'; this.style.transform='translateY(-5px)'" 
+           onmouseout="this.style.boxShadow='none'; this.style.transform='none'">
+          
+          <div style="
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 350px;
+            position: relative;
+            overflow: hidden;
+          ">
+            <div style="
+              font-size: 4rem;
+              text-align: center;
+              z-index: 1;
+              color: white;
+            ">
+              ⚙️
+            </div>
+            <p style="
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              background: rgba(255, 255, 255, 0.2);
+              color: white;
+              padding: var(--spacing-xs) var(--spacing-md);
+              border-radius: var(--radius-md);
+              font-weight: 600;
+              font-size: var(--font-size-sm);
+              margin: 0;
+              backdrop-filter: blur(5px);
+            ">MySQL</p>
+          </div>
+
+          <div style="padding: var(--spacing-2xl); display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="margin-top: 0; margin-bottom: var(--spacing-md); color: var(--text-primary);">Athletics Database</h3>
+            <p style="color: var(--text-secondary); margin-bottom: var(--spacing-lg);">
+              Created a relational database for managing athletics information, including building locations, payroll records, events, and work dates.
+            </p>
+            
+            <div style="margin-bottom: var(--spacing-lg);">
+              <p style="margin: 0 0 var(--spacing-sm) 0; color: var(--text-primary); font-weight: 600;">Technologies Used:</p>
+              <ul style="list-style: none; margin: 0; padding: 0; color: var(--text-secondary);">
+                <li style="margin-bottom: var(--spacing-sm);">✓ Relational database design</li>
+                <li style="margin-bottom: var(--spacing-sm);">✓ MySQL database management</li>
+                <li>✓ Data modeling and normalization</li>
+              </ul>
+            </div>
+
+            <div style="display: flex; gap: var(--spacing-md);">
+              <a href="https://github.com/KaynoSpeights/Athletics-Database" class="btn btn-primary" style="flex: 1; text-align: center;">GitHub Repository</a>
+              <a href="https://github.com/KaynoSpeights/Athletics-Database" class="btn btn-secondary" style="flex: 1; text-align: center;">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Filter Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">Technology Stack</h2>
+      
+      <div style="display: flex; justify-content: center; gap: var(--spacing-md); flex-wrap: wrap; margin-bottom: var(--spacing-2xl);">
+        <div class="btn btn-primary" style="cursor: default; opacity: 1;">HTML/CSS/JavaScript</div>
+        <div class="btn btn-primary" style="cursor: default; opacity: 1;">Python</div>
+        <div class="btn btn-primary" style="cursor: default; opacity: 1;">MySQL</div>
+      </div>
+
+      <p style="text-align: center; color: var(--text-secondary);">
+        These are the main technologies I've used in my projects. Each project highlights different skills and tools, showcasing my versatility as a developer.
+      </p>
+    </div>
+  </section>
+
+  <!-- Open Source or Additional Projects -->
+  <section class="section" id="more-projects">
+    <div class="container">
+      <h2 class="section-title scroll-animate-left">Other Projects & Contributions</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-lg);">
+        
+        <div class="card scroll-animate-card">
+          <h4 style="color: var(--accent); margin-bottom: var(--spacing-md);">Coursework Projects</h4>
+          <p style="margin-bottom: var(--spacing-md);">
+            Academic projects completed as part of computer science coursework, 
+            demonstrating mastery of core concepts.
+          </p>
+          <a href="#" style="color: var(--accent); font-weight: 600;">View Coursework →</a>
+        </div>
+
+        <div class="card scroll-animate-card">
+          <h4 style="color: var(--accent); margin-bottom: var(--spacing-md);">Open Source</h4>
+          <p style="margin-bottom: var(--spacing-md);">
+            Contributions to open source projects and community engagement. 
+            Check out my GitHub profile for more details.
+          </p>
+          <a href="https://github.com/KaynoSpeights" style="color: var(--accent); font-weight: 600;">Visit GitHub →</a>
+        </div>
+
+        <div class="card scroll-animate-card">
+          <h4 style="color: var(--accent); margin-bottom: var(--spacing-md);">In Progress</h4>
+          <p style="margin-bottom: var(--spacing-md);">
+            I'm always working on new projects and ideas. Stay tuned for updates 
+            on upcoming releases and exciting work!
+          </p>
+          <a href="contact.html" style="color: var(--accent); font-weight: 600;">Get Updates →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section" style="background: linear-gradient(135deg, var(--accent), var(--accent-light)); color: white; text-align: center;">
+    <div class="container">
+      <h2 class="scroll-animate-card" style="color: white; margin-bottom: var(--spacing-lg);">Interested in Collaborating?</h2>
+      <p style="color: rgba(255, 255, 255, 0.95); font-size: var(--font-size-lg); margin-bottom: var(--spacing-lg);">
+        I'm always open to discussing new projects, collaborations, and opportunities.
+      </p>
+      <a href="contact.html" class="btn" style="background: white; color: var(--accent); font-weight: 700;">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    text-align: center;
+  ">
+    <div class="container">
+      <p style="margin-bottom: var(--spacing-md);">
+        <a href="https://github.com/KaynoSpeights" style="margin: 0 var(--spacing-md);">GitHub</a>
+        <a href="https://www.linkedin.com/in/kaynospeights/" style="margin: 0 var(--spacing-md);">LinkedIn</a>
+        <a href="mailto:your.email@example.com" style="margin: 0 var(--spacing-md);">Email</a>
+      </p>
+      <p style="color: var(--text-secondary); margin: 0;">
+        © 2024 Kayno Speights. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
